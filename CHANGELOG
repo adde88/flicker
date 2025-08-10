@@ -1,0 +1,32 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+---
+
+## [1.0.1] - 2025-08-10
+
+### Changed
+- Configuration file setup now copies `config.txt` from the script's source directory instead of generating it. This makes the project more repository-friendly and ensures the default config is version-controlled.
+
+### Fixed
+- Corrected dependency check to include `cp` and `dirname`.
+
+---
+
+## [1.0.0] - 2025-08-10
+
+### Added
+- Initial release of **Flicker**.
+- Core functionality for randomizing wireless TX power at unpredictable intervals.
+- Advanced mode (`-A`, `--advanced`) to randomize the `Coverage Class` for MAC-layer timing obfuscation.
+- Support for a persistent configuration file at `/etc/flicker/config.txt`.
+- Full command-line argument parsing to override all major settings.
+- Robust, POSIX-compliant random number generation using `awk`.
+- Graceful cleanup routine to restore original wireless settings on exit (`Ctrl+C`).
+- Detailed help menu (`-h`, `--help`).
+- Logging to `/var/log/flicker.log`.
