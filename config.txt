@@ -1,0 +1,30 @@
+Of course. Based on the analysis of how Flicker works and the goal of balancing potent obfuscation with stable performance, here are the recommended values for your config.txt file.
+
+This configuration is designed to be a powerful "set and forget" profile that provides significant protection without making your wireless operations unreliable.
+
+Recommended config.txt
+# Optimal configuration for Flicker, balancing obfuscation and performance.
+
+# The wireless interface to use if none is specified on the command line.
+# CHANGE THIS to match your primary interface (e.g., wlan1, wlan2).
+DEFAULT_IFACE="wlan0"
+
+# The minimum TX power to set, in dBm.
+# This provides a large power fluctuation range without dropping the signal too low.
+MIN_TX_POWER_DBM=10
+
+# The base sleep duration in seconds.
+# A shorter interval to change parameters more frequently, confusing trackers.
+BASE_SLEEP_SEC=7
+
+# The maximum percentage of variation for the sleep timer.
+# A high variation makes the timing of changes highly unpredictable.
+SLEEP_VARIATION_PERCENT=50
+
+# Enable Advanced Obfuscation mode (randomizes Coverage Class).
+# This should be enabled for maximum effect.
+ADVANCED_MODE=1
+
+# The maximum Coverage Class to use in Advanced mode.
+# Provides significant timing jitter without using extreme, potentially unstable values.
+MAX_COVERAGE_CLASS=10
