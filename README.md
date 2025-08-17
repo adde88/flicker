@@ -1,6 +1,7 @@
 # Flicker 🔦
-### An RF Geolocation Obfuscation Tool  *(Originally made for OpenWRT Linux / WiFi Pineapples)*
-
+### An RF Geolocation Obfuscation Tool
+*(Originally made for OpenWRT Linux / WiFi Pineapples)*
+---
 **Ever feel like you're being watched?  
 In the digital world, you most likely are.**  
 
@@ -15,11 +16,12 @@ It was actually specfifically written to be run on the WiFi Pineapple MKVII, mad
 ## What is Flicker?
 
 ***Flicker*** is my own work. I wrote in a day (10.th August 2025).  
-It's a 100% POSIX-compliant shell script that makes your wireless device(s) a ghost in the machine. It runs on OpenWrt-based systems *(like the Hak5 WiFi Pineapples)* and continuously randomizes your device's radio frequency *(RF)* signature.  
-By rapidly and randomly changing the selected interfaces **transmit power** as well as other low-level settings **MAC timing parameters**, ***Flicker*** introduces two random layers of chaos that *"corrupts/obfuscates"* the data used by normal geolocation trackers.  
-It doesn't just hide your signal; it actively pollutes the surveillance environment, making you a hard target to pin down.  
+- It's a 100% POSIX-compliant shell script that makes your wireless device(s) a ghost in the machine.  
+- It runs on OpenWrt-based systems *(like the Hak5 WiFi Pineapples)* and continuously randomizes your device's radio frequency *(RF)* signature.  
+- By rapidly and randomly changing the selected interfaces **transmit power** as well as other low-level settings **MAC timing parameters**, ***Flicker*** introduces two random layers of chaos that *"corrupts/obfuscates"* the data used by normal geolocation trackers.  
+- It doesn't just hide your signal; it actively pollutes the surveillance environment, making you a hard target to pin down.  
 
-Think of it like this: if a standard Wi-Fi signal is a steady lighthouse beacon, ***Flicker*** turns your signal into a thousand flickering candles in a hurricane.**
+*Think of it like this: if a standard Wi-Fi signal is a steady lighthouse beacon, ***Flicker*** turns your signal into a thousand flickering candles in a hurricane.*
 
 ---
 
@@ -123,14 +125,14 @@ Your feedbacks is extremely valuable and appreciated in the ongoing effort to bu
 
 ## License
 
-***Flicker*** is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+***Flicker*** is licensed under the **Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License**.
 
-You are free to share and adapt this work for non-commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.
+You are free to share and adapt this work for non-commercial purposes, as long as you give appropriate credit to its author and distribute your contributions under the same license.
 
 ---
 
 ### Support This Project
 If you find this project helpful, please consider supporting its continued development:
-- **Bitcoin**: `bc1qj85mvdr657nkzef4gppl9xy8eqerqga3suaqc3`
+- **Bitcoin**: `bc1qnamkw2g3n9w4v5lejn8rlw000g2mqpdca9vk04`
 
 *Your support helps keep this project maintained and improved. Thank you!*
