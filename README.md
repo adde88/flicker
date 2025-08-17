@@ -1,5 +1,5 @@
 # Flicker 🔦
-### An RF Geolocation Obfuscation Tool
+### An RF Geolocation Obfuscation Tool  *(Originally made for OpenWRT Linux / WiFi Pineapples)*
 
 **Ever feel like you're being watched?  
 In the digital world, you most likely are.**  
